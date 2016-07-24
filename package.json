@@ -1,0 +1,4 @@
+{
+  "theme": "preview",
+  "styleSheets": ["github-hljs.css", "github-markdown.css"]
+}
