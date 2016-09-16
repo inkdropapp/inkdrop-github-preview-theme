@@ -364,7 +364,7 @@
 }
 
 .mde-preview li>p {
-  margin-top: 16px;
+  margin: 0;
 }
 
 .mde-preview dl {
