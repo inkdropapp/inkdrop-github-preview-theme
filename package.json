@@ -1,5 +1,9 @@
 {
   "name": "github-preview",
   "theme": "preview",
-  "styleSheets": ["github-hljs.css", "rainbow-hljs.less", "github-markdown.css", "github-markdown-dark.less"]
+  "styleSheets": [
+    "rainbow-hljs.less",
+    "github-markdown.less",
+    "github-markdown-dark.less"
+  ]
 }
