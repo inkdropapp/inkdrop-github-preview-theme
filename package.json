@@ -4,5 +4,8 @@
   "styleSheets": [
     "github-markdown.less",
     "github-markdown-dark.less"
-  ]
+  ],
+  "engines": {
+    "inkdrop": ">=3.12.0"
+  }
 }
