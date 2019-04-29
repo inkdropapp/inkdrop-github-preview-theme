@@ -10,6 +10,6 @@
     "github-markdown-dark.less"
   ],
   "engines": {
-    "inkdrop": "^3.25.2"
+    "inkdrop": "^4.x"
   }
 }
