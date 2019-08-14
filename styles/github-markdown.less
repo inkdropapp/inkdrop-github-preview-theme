@@ -446,7 +446,7 @@
     content: "\00a0";
   }
 
-  pre>code {
+  pre > code {
     padding: 0;
     margin: 0;
     font-size: 100%;
@@ -456,27 +456,14 @@
     border: 0;
   }
 
-  .highlight {
-    margin-bottom: 16px;
-  }
-
-  .highlight pre,
   pre {
     padding: 16px;
     overflow: auto;
+    word-wrap: normal;
     font-size: 85%;
     line-height: 1.45;
     background-color: #f7f7f7;
     border-radius: 3px;
-  }
-
-  .highlight pre {
-    margin-bottom: 0;
-    word-break: normal;
-  }
-
-  pre {
-    word-wrap: normal;
   }
 
   pre code {
@@ -577,9 +564,15 @@
   }
 }
 
-.mde-preview.print {
-  table {
-    overflow: hidden;
-    word-break: break-word;
+@media print {
+  .mde-preview {
+    table {
+      overflow: hidden;
+      word-break: break-word;
+    }
+    pre > code {
+      word-wrap: break-word;
+      white-space: pre-wrap;
+    }
   }
 }
