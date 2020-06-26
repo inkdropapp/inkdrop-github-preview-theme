@@ -28,6 +28,10 @@
 }
 .mde-preview strong {
   font-weight: bold;
+  color: black;
+}
+.mde-preview em {
+  color: black;
 }
 .mde-preview h1 {
   font-size: 2em;
@@ -109,7 +113,8 @@
 .mde-preview h4,
 .mde-preview h5,
 .mde-preview h6 {
-  margin-top: 15px;
+  margin-top: 0;
+  padding-top: 15px;
   margin-bottom: 15px;
   line-height: 1.1;
 }
@@ -196,17 +201,6 @@
 }
 .mde-preview .anchor:focus {
   outline: none;
-}
-.mde-preview h1,
-.mde-preview h2,
-.mde-preview h3,
-.mde-preview h4,
-.mde-preview h5,
-.mde-preview h6 {
-  margin-top: 1em;
-  margin-bottom: 16px;
-  font-weight: bold;
-  line-height: 1.4;
 }
 .mde-preview h1 .octicon-link,
 .mde-preview h2 .octicon-link,
@@ -383,24 +377,14 @@
   background: transparent;
   border: 0;
 }
-.mde-preview .highlight {
-  margin-bottom: 16px;
-}
-.mde-preview .highlight pre,
 .mde-preview pre {
   padding: 16px;
   overflow: auto;
+  word-wrap: normal;
   font-size: 85%;
   line-height: 1.45;
   background-color: #f7f7f7;
   border-radius: 3px;
-}
-.mde-preview .highlight pre {
-  margin-bottom: 0;
-  word-break: normal;
-}
-.mde-preview pre {
-  word-wrap: normal;
 }
 .mde-preview pre code {
   display: inline;
@@ -536,7 +520,7 @@
   list-style-type: none;
 }
 .mde-preview .task-list-item + .task-list-item {
-  margin-top: 3px;
+  margin-top: 0px;
 }
 .mde-preview .task-list-item input {
   /* margin: 0 0.35em 0.25em -1.6em; */
@@ -547,7 +531,13 @@
   position: relative;
   border-color: #4078c0;
 }
-.mde-preview.print table {
-  overflow: hidden;
-  word-break: break-word;
+@media print {
+  .mde-preview table {
+    overflow: hidden;
+    word-break: break-word;
+  }
+  .mde-preview pre > code {
+    word-wrap: break-word;
+    white-space: pre-wrap;
+  }
 }

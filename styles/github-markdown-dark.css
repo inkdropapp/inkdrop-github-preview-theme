@@ -13,6 +13,10 @@ body[class*="dark-ui"] .mde-preview input {
 body[class*="dark-ui"] .mde-preview a {
   color: #6987AF;
 }
+body[class*="dark-ui"] .mde-preview strong,
+body[class*="dark-ui"] .mde-preview em {
+  color: white;
+}
 body[class*="dark-ui"] .mde-preview h1,
 body[class*="dark-ui"] .mde-preview h2,
 body[class*="dark-ui"] .mde-preview h3,
@@ -33,7 +37,7 @@ body[class*="dark-ui"] .mde-preview hr {
 }
 body[class*="dark-ui"] .mde-preview blockquote {
   color: rgba(255, 255, 255, 0.4);
-  border-left: 4px solid rgba(255, 255, 255, 0.3);
+  border-left: 4px solid rgba(255, 255, 255, 0.1);
 }
 body[class*="dark-ui"] .mde-preview table th {
   background-color: rgba(255, 255, 255, 0.1);
