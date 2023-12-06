@@ -549,16 +549,21 @@
   }
 
   .task-list-item {
+    margin-left: -1.1em;
     list-style-type: none;
+
+    label {
+      vertical-align: middle;
+
+      input[type='checkbox'] {
+        vertical-align: middle;
+        margin-right: 0.2em;
+      }
+    }
   }
 
-  .task-list-item+.task-list-item {
+  .task-list-item + .task-list-item {
     margin-top: 0px;
-  }
-
-  .task-list-item input {
-    /* margin: 0 0.35em 0.25em -1.6em; */
-    vertical-align: middle;
   }
 
   :checked+.radio-label {
