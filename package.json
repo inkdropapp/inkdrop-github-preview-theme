@@ -10,7 +10,8 @@
   "license": "MIT",
   "styleSheets": [
     "github-markdown.css",
-    "github-markdown-dark.css"
+    "github-markdown-dark.css",
+    "gfm-alerts.css"
   ],
   "engines": {
     "inkdrop": "^5.x"
