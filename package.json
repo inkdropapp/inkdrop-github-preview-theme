@@ -11,7 +11,8 @@
   "styleSheets": [
     "github-markdown.css",
     "github-markdown-dark.css",
-    "gfm-alerts.css"
+    "gfm-alerts.css",
+    "metadata-section.css"
   ],
   "engines": {
     "inkdrop": "^5.x"
