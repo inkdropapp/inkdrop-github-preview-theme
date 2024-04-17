@@ -7,7 +7,7 @@
   --color-syntax-markup-positive: hsl(var(--hsl-green-700));
   --color-syntax-markup-keyword: hsl(var(--hsl-red-600));
   --color-syntax-markup-atom: hsl(var(--hsl-purple-600));
-  --color-syntax-markup-number: hsl(var(--hsl-yellow-900));
+  --color-syntax-markup-number: hsl(var(--hsl-yellow-800));
   --color-syntax-markup-definition: hsl(var(--hsl-sky-800));
   --color-syntax-markup-property: hsl(var(--hsl-sky-800));
   --color-syntax-markup-operator: hsl(var(--hsl-purple-700));
