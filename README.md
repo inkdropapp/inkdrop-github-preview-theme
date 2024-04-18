@@ -2,11 +2,9 @@
 
 A default Markdown preview theme for [Inkdrop](https://www.inkdrop.app/).
 
-## Theming code blocks
+This theme itself does not add any styles since the app provides the default styles based on [GitHub's theme](https://github.com/sindresorhus/github-markdown-css/).
 
-Highlighting code blocks is built with [CodeMirror](https://codemirror.net/demo/theme.html), and CSS selectors for styling code blocks are compatible with it.
-CSS selectors always start with `cm-`.
-You can easily import styles from [CodeMirror's theme](https://github.com/codemirror/CodeMirror/tree/master/theme).
+To customize it in your preview theme, tweak the CSS variables that are commented out in `styles/github-markdown.css`.
 
 ## How to publish your own theme
 

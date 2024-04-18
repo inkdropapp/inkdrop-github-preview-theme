@@ -1,30 +1,38 @@
 .mde-preview {
   /*light*/
+  /*
   color-scheme: light;
-  --color-syntax-markup-header: hsl(var(--hsl-blue-500));
-  --color-syntax-markup-quote: hsl(var(--hsl-green-600));
-  --color-syntax-markup-negative: hsl(var(--hsl-red-700));
-  --color-syntax-markup-positive: hsl(var(--hsl-green-700));
-  --color-syntax-markup-keyword: hsl(var(--hsl-red-600));
-  --color-syntax-markup-atom: hsl(var(--hsl-purple-600));
-  --color-syntax-markup-number: hsl(var(--hsl-yellow-800));
-  --color-syntax-markup-definition: hsl(var(--hsl-sky-800));
-  --color-syntax-markup-property: hsl(var(--hsl-sky-800));
-  --color-syntax-markup-operator: hsl(var(--hsl-purple-700));
-  --color-syntax-markup-variable-2: hsl(var(--hsl-blue-700));
-  --color-syntax-markup-variable-3: hsl(var(--hsl-green-700));
-  --color-syntax-markup-comment: hsl(var(--hsl-gray-600));
-  --color-syntax-markup-string: hsl(var(--hsl-blue-800));
-  --color-syntax-markup-string-2: hsl(var(--hsl-orange-700));
-  --color-syntax-markup-meta: hsl(var(--hsl-gray-700));
-  --color-syntax-markup-qualifier: hsl(var(--hsl-gray-700));
-  --color-syntax-markup-builtin: hsl(var(--hsl-violet-700));
-  --color-syntax-markup-bracket: hsl(var(--hsl-stone-500));
-  --color-syntax-markup-tag: hsl(var(--hsl-green-800));
-  --color-syntax-markup-attribute: hsl(var(--hsl-blue-800));
-  --color-syntax-markup-hr: hsl(var(--hsl-stone-500));
-  --color-syntax-markup-link: hsl(var(--hsl-blue-800));
-  --color-syntax-markup-error: hsl(var(--hsl-red-600));
+
+  --color-syntax-comment: #57606a;
+  --color-syntax-constant: #0550ae;
+  --color-syntax-entity: #6639ba;
+  --color-syntax-storage-modifier-import: #24292f;
+  --color-syntax-entity-tag: #116329;
+  --color-syntax-keyword: #cf222e;
+  --color-syntax-string: #0a3069;
+  --color-syntax-variable: #953800;
+  --color-syntax-brackethighlighter-unmatched: #82071e;
+  --color-syntax-invalid-illegal-text: #f6f8fa;
+  --color-syntax-invalid-illegal-bg: #82071e;
+  --color-syntax-carriage-return-text: #f6f8fa;
+  --color-syntax-carriage-return-bg: #cf222e;
+  --color-syntax-string-regexp: #116329;
+  --color-syntax-markup-list: #3b2300;
+  --color-syntax-markup-heading: #0550ae;
+  --color-syntax-markup-italic: #24292f;
+  --color-syntax-markup-bold: #24292f;
+  --color-syntax-markup-deleted-text: #82071e;
+  --color-syntax-markup-deleted-bg: #ffebe9;
+  --color-syntax-markup-inserted-text: #116329;
+  --color-syntax-markup-inserted-bg: #dafbe1;
+  --color-syntax-markup-changed-text: #953800;
+  --color-syntax-markup-changed-bg: #ffd8b5;
+  --color-syntax-markup-ignored-text: #eaeef2;
+  --color-syntax-markup-ignored-bg: #0550ae;
+  --color-syntax-meta-diff-range: #8250df;
+  --color-syntax-brackethighlighter-angle: #57606a;
+  --color-syntax-sublimelinter-gutter-mark: #8c959f;
+  --color-syntax-constant-other-reference-link: #0a3069;
 
   --color-fg-default: #1f2328;
   --color-fg-muted: #656d76;
@@ -50,36 +58,46 @@
   --gfm-alert-important: var(--purple, hsl(var(--hsl-purple-500)));
   --gfm-alert-warning: var(--orange, hsl(var(--hsl-orange-500)));
   --gfm-alert-caution: var(--red, hsl(var(--hsl-red-500)));
+  */
 }
 
 body[class*='dark-ui'] {
   .mde-preview {
     /*dark*/
+
+    /*
     color-scheme: dark;
-    --color-syntax-markup-header: hsl(var(--hsl-blue-700));
-    --color-syntax-markup-quote: hsl(var(--hsl-green-400));
-    --color-syntax-markup-negative: hsl(var(--hsl-red-700));
-    --color-syntax-markup-positive: hsl(var(--hsl-green-600));
-    --color-syntax-markup-keyword: hsl(var(--hsl-red-400));
-    --color-syntax-markup-atom: hsl(var(--hsl-purple-400));
-    --color-syntax-markup-number: hsl(var(--hsl-yellow-300));
-    --color-syntax-markup-definition: hsl(var(--hsl-sky-300));
-    --color-syntax-markup-property: hsl(var(--hsl-sky-300));
-    --color-syntax-markup-operator: hsl(var(--hsl-purple-400));
-    --color-syntax-markup-variable-2: hsl(var(--hsl-blue-400));
-    --color-syntax-markup-variable-3: hsl(var(--hsl-green-400));
-    --color-syntax-markup-comment: hsl(var(--hsl-gray-500));
-    --color-syntax-markup-string: hsl(var(--hsl-blue-300));
-    --color-syntax-markup-string-2: hsl(var(--hsl-orange-300));
-    --color-syntax-markup-meta: hsl(var(--hsl-gray-500));
-    --color-syntax-markup-qualifier: hsl(var(--hsl-gray-500));
-    --color-syntax-markup-builtin: hsl(var(--hsl-violet-400));
-    --color-syntax-markup-bracket: hsl(var(--hsl-stone-400));
-    --color-syntax-markup-tag: hsl(var(--hsl-green-400));
-    --color-syntax-markup-attribute: hsl(var(--hsl-blue-400));
-    --color-syntax-markup-hr: hsl(var(--hsl-stone-300));
-    --color-syntax-markup-link: hsl(var(--hsl-blue-400));
-    --color-syntax-markup-error: hsl(var(--hsl-red-500));
+
+    --color-syntax-comment: #8b949e;
+    --color-syntax-constant: #79c0ff;
+    --color-syntax-entity: #d2a8ff;
+    --color-syntax-storage-modifier-import: #c9d1d9;
+    --color-syntax-entity-tag: #7ee787;
+    --color-syntax-keyword: #ff7b72;
+    --color-syntax-string: #a5d6ff;
+    --color-syntax-variable: #ffa657;
+    --color-syntax-brackethighlighter-unmatched: #f85149;
+    --color-syntax-invalid-illegal-text: #f0f6fc;
+    --color-syntax-invalid-illegal-bg: #8e1519;
+    --color-syntax-carriage-return-text: #f0f6fc;
+    --color-syntax-carriage-return-bg: #b62324;
+    --color-syntax-string-regexp: #7ee787;
+    --color-syntax-markup-list: #f2cc60;
+    --color-syntax-markup-heading: #1f6feb;
+    --color-syntax-markup-italic: #c9d1d9;
+    --color-syntax-markup-bold: #c9d1d9;
+    --color-syntax-markup-deleted-text: #ffdcd7;
+    --color-syntax-markup-deleted-bg: #67060c;
+    --color-syntax-markup-inserted-text: #aff5b4;
+    --color-syntax-markup-inserted-bg: #033a16;
+    --color-syntax-markup-changed-text: #ffdfb6;
+    --color-syntax-markup-changed-bg: #5a1e02;
+    --color-syntax-markup-ignored-text: #c9d1d9;
+    --color-syntax-markup-ignored-bg: #1158c7;
+    --color-syntax-meta-diff-range: #d2a8ff;
+    --color-syntax-brackethighlighter-angle: #8b949e;
+    --color-syntax-sublimelinter-gutter-mark: #484f58;
+    --color-syntax-constant-other-reference-link: #a5d6ff;
 
     --color-fg-default: #e6edf3;
     --color-fg-muted: #848d97;
@@ -99,5 +117,6 @@ body[class*='dark-ui'] {
     --color-danger-emphasis: #da3633;
     --color-done-fg: #a371f7;
     --color-done-emphasis: #8957e5;
+    */
   }
 }
