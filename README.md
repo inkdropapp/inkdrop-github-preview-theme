@@ -1,4 +1,4 @@
-# Github Preview Theme
+# GitHub Preview Theme
 
 A default Markdown preview theme for [Inkdrop](https://www.inkdrop.app/).
 
